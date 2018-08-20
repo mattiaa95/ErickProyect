@@ -1,5 +1,4 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-
 html {
     color: #222;
     font-size: 1em;
@@ -108,7 +107,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: #fa8061;
 }
 
 nav a:hover,
