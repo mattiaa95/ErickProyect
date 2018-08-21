@@ -13,10 +13,9 @@
     <meta name="description" content="JestSki Tenerife Online Web for fun.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
     <link rel="stylesheet" href="css/main.css">
-
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="js/vendor/smtp.js"></script>
 </head>
 
 <body>
@@ -79,12 +78,12 @@
       <p>The online booking is really easy. First complete the next form with your information and press the button "Book Now". After that we will contact with you to specify the hour of your amazing tour on jet skis.</p>
       <p class="tf-text-blue-grey tf-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
       <p>You can also contact us by phone 00553123-2323 or email info@jetskitenerifetours.com:</p>
-      <form action="/action_page.php" target="_blank">
-        <p><input class="tf-input tf-padding-16" type="text" placeholder="Name" required name="Name"></p>
-        <p><input class="tf-input tf-padding-16" type="number" placeholder="Single Jet Skis" required name="SJetski" min="0" max="10"></p>
-        <p><input class="tf-input tf-padding-16" type="number" placeholder="Double Jet Skis" required name="DJetski" min="0" max="10"></p>
-        <p><input class="tf-input tf-padding-16" type="date" placeholder="Date" required name="Date" value="Date"></p>
-        <p><input class="tf-input tf-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <form id="contact"> 
+        <p><input class="tf-input tf-padding-16" type="text" placeholder="Name" required name="Name" id="Name"></p>
+        <p><input class="tf-input tf-padding-16" type="number" placeholder="Single Jet Skis" required name="SJetski" id="SJetski" min="0" max="10"></p>
+        <p><input class="tf-input tf-padding-16" type="number" placeholder="Double Jet Skis" required name="DJetski" id="DJetski" min="0" max="10"></p>
+        <p><input class="tf-input tf-padding-16" type="date" placeholder="Date" required name="Date" value="Date" id="Date"></p>
+        <p><input class="tf-input tf-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message" id="Message"></p>
         <p><button class="tf-button tf-light-grey tf-section" type="submit">BOOK NOW</button></p>
       </form>
     </div>
